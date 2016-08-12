@@ -1,0 +1,55 @@
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <Button android:layout_width="match_parent"
+        android:id="@+id/buttom_refresh"
+        android:layout_height="wrap_content"
+        android:onClick="clickSwitcher"
+        android:text="刷新layout"/>
+
+<com.cca.definelayout.CustomerLayout 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/customer_layout"
+    android:layout_height="match_parent"
+    tools:context="com.cca.definelayout.MainActivity" >
+    
+    <View 
+           android:layout_width="220dp"
+    		android:layout_height="40dp"
+    		android:background="#ff0000"
+    />
+        
+     <View 
+           android:layout_width="220dp"
+    		android:layout_height="40dp"
+    		android:background="#00ff00"
+    />
+        
+     <View 
+           android:layout_width="220dp"
+    		android:layout_height="40dp"
+    		android:background="#fe3300"
+    />
+        
+    <View 
+           android:layout_width="220dp"
+    		android:layout_height="40dp"
+    		android:background="#ff0220"
+    />
+        
+      <View 
+           android:layout_width="220dp"
+    		android:layout_height="40dp"
+    		android:background="#ffdd00"
+    />
+</com.cca.definelayout.CustomerLayout>
+
+
+
+
+</LinearLayout>
